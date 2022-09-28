@@ -1,0 +1,11 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 50px;
+}
+
+.single-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
