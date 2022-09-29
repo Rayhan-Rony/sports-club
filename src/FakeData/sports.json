@@ -4,41 +4,41 @@
         "img": "https://a.storyblok.com/f/112937/568x464/82f66c3a21/all_the_english-_football_terms_you_need_to_know_blog-hero-low.jpg/m/620x0/filters:quality(70)/",
         "name": "Football",
         "age": "20-30",
-        "time": "30m"
+        "time": "30"
     },
     {
         "id": 2,
         "img": "https://www.sportsunfold.com/wp-content/uploads/2022/06/cricket-1642491052.jpg",
         "name": "Cricket",
         "age": "20-30",
-        "time": "30m"
+        "time": "40"
     },
     {
         "id": 3,
         "img": "https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_300,c_limit/fbac6830-87ca-4ff2-ad8a-a523f5ef3ab1/nike-basketball.jpg",
         "name": "Basketball",
         "age": "20-30",
-        "time": "30m"
+        "time": "50"
     },
     {
         "id": 4,
         "img": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/12/hcokey-1598697604-1607016062-1609420559.jpg",
         "name": "Hockey",
         "age": "20-30",
-        "time": "30m"
+        "time": "60"
     },
     {
         "id": 5,
         "img": "https://images.volleyballworld.com/image/private/t_q-best/fivb-prd/ovnjwslpgbrqqxaneu2j.jpg",
         "name": "Vollyball",
         "age": "20-30",
-        "time": "30m"
+        "time": "70"
     },
     {
         "id": 6,
         "img": "https://i.ytimg.com/vi/av1mr3UpdZk/maxresdefault.jpg",
         "name": "Kabadi",
         "age": "20-30",
-        "time": "30m"
+        "time": "80"
     }
 ]
