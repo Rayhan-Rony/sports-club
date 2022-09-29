@@ -4,8 +4,11 @@
 }
 
 .toast-btn {
+    color: white;
     width: 60%;
     padding: 8px;
     font-size: 18px;
     border-radius: 40px;
+    background-color: rgb(27, 195, 251);
+    border: none;
 }

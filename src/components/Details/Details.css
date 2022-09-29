@@ -1,12 +1,21 @@
 .total-time {
-    background-color: blueviolet;
+    background-color: rgb(218, 212, 212);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .time {
-    margin-left: 80px;
+    margin-left: 200px;
 }
 
 .break-btn {
+    margin-left: 15px;
     padding: 10px;
     border-radius: 100%;
+}
+
+.break-time {
+    background-color: rgb(218, 212, 212);
+    padding: 10px;
+    border-radius: 10px;
 }

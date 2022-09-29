@@ -6,7 +6,9 @@ const SingleCard = (props) => {
     const { name, time, age, img } = card
     return (
         <div className='card-info'>
-            <img src={img} alt="" />
+            <div>
+                <img src={img} alt="" />
+            </div>
             <div className='card-text'>
                 <h2>{name}</h2>
                 <p>For Age: {age}</p>
