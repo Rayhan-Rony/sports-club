@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { FaAccessibleIcon } from "react-icons/fa";
 
 import Details from '../Details/Details';
 import PersonalInfo from '../PersonalInfo/PersonalInfo';
@@ -25,7 +26,7 @@ const Cards = () => {
 
     return (
         <div>
-            <h1>Sports-Club</h1>
+            <h1> <FaAccessibleIcon></FaAccessibleIcon> Sports-Club</h1>
             <div className='cards-container'>
                 <div className='single-card-container'>
                     {
