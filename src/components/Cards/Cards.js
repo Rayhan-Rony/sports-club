@@ -3,6 +3,7 @@ import Break from '../Break/Break';
 import Details from '../Details/Details';
 import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import SingleCard from '../SingleCard/SingleCard';
+import Toast from '../Toast/Toast';
 import "./Cards.css"
 
 const Cards = () => {
@@ -23,6 +24,7 @@ const Cards = () => {
     }
     const handleBreak = () => {
         console.log('clicked')
+        // const updatedBreakInfo=[...breakInfo,]
     }
 
     return (
@@ -38,6 +40,7 @@ const Cards = () => {
                     <PersonalInfo></PersonalInfo>
                     <Break handleBreak={handleBreak}></Break>
                     <Details details={details}></Details>
+                    <Toast></Toast>
                 </div>
             </div>
         </div>

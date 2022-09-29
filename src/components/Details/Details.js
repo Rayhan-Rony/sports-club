@@ -14,7 +14,7 @@ const Details = (props) => {
             <h2>Exercise Details:</h2>
             <p>Exercise Time:{totalTime}m</p>
             <p>Break Time:</p>
-            <button>Activity Completed</button>
+
         </div>
     );
 };
