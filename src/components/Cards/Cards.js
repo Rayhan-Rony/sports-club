@@ -27,6 +27,7 @@ const Cards = () => {
     return (
         <div>
             <h1> <FaAccessibleIcon></FaAccessibleIcon> Sports-Club</h1>
+            <h2>Select Today's Game</h2>
             <div className='cards-container'>
                 <div className='single-card-container'>
                     {
@@ -35,7 +36,7 @@ const Cards = () => {
                 </div>
                 <div className='sidebar'>
                     <PersonalInfo></PersonalInfo>
-                    {/* <Break handleBreak={handleBreak}></Break> */}
+
                     <Details details={details}></Details>
                     <Toast></Toast>
                 </div>

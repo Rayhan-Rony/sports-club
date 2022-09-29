@@ -6,7 +6,7 @@ const Details = (props) => {
 
     useEffect(() => {
         if (breakTime) {
-            console.log(breakTime)
+
             localStorage.setItem('break', breakTime)
         }
         else {
@@ -18,7 +18,7 @@ const Details = (props) => {
     const card = props.details;
     let totalTime = 0;
     for (const game of card) {
-        console.log(game)
+
         totalTime = totalTime + parseFloat(game.time);
     }
     return (

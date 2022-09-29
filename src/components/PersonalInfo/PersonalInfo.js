@@ -7,7 +7,7 @@ const PersonalInfo = () => {
 
             <h2>Jobayer Ahmed Rony</h2>
             <p>Practicing Front End</p>
-            <p><small>Pupil Of Programming Hero</small></p>
+            <p><small>Learner Of Programming Hero</small></p>
             <h3>Learned Item</h3>
             <div className='learned'>
                 <p className='text'>HTML</p>
