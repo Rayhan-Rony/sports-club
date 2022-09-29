@@ -1,5 +1,6 @@
 
 import './App.css';
+import Blogs from './components/Blogs/Blogs';
 import Cards from './components/Cards/Cards';
 
 
@@ -11,6 +12,7 @@ function App() {
     <div className='App'>
 
       <Cards></Cards>
+      <Blogs></Blogs>
 
     </div>
   );
