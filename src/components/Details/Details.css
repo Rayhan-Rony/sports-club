@@ -5,3 +5,8 @@
 .time {
     margin-left: 80px;
 }
+
+.break-btn {
+    padding: 10px;
+    border-radius: 100%;
+}

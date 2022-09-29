@@ -2,8 +2,8 @@ import React from 'react';
 import './SingleCard.css'
 
 const SingleCard = (props) => {
-    console.log(props)
-    const { id, name, time, age, img } = props.card
+    const { handleTime, card } = props
+    const { name, time, age, img } = card
     return (
         <div className='card-info'>
             <img src={img} alt="" />
@@ -11,7 +11,7 @@ const SingleCard = (props) => {
                 <h2>{name}</h2>
                 <p>For Age: {age}</p>
                 <p>Time Required: {time}m</p>
-                <button onClick={() => props.handleTime(props.card)} className='card-btn'>Add To List</button>
+                <button onClick={() => handleTime(card)} className='card-btn'>Add To List</button>
             </div>
         </div>
 

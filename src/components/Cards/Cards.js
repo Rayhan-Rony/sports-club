@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Break from '../Break/Break';
+
 import Details from '../Details/Details';
 import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import SingleCard from '../SingleCard/SingleCard';
@@ -9,7 +9,6 @@ import "./Cards.css"
 const Cards = () => {
     const [cards, setCards] = useState([])
     const [details, setDetails] = useState([])
-    // const [breakInfo, setBreakInfo] = useState([])
     useEffect(() => {
         fetch('sports.json')
             .then(res => res.json())
@@ -17,15 +16,12 @@ const Cards = () => {
     }, [])
 
     const handleTime = (card) => {
-        console.log('clicked')
+        // console.log('clicked')
         const updatedDetails = [...details, card]
         setDetails(updatedDetails)
 
     }
-    const handleBreak = () => {
-        console.log('clicked')
-        // const updatedBreakInfo=[...breakInfo,]
-    }
+
 
     return (
         <div>
@@ -38,7 +34,7 @@ const Cards = () => {
                 </div>
                 <div className='sidebar'>
                     <PersonalInfo></PersonalInfo>
-                    <Break handleBreak={handleBreak}></Break>
+                    {/* <Break handleBreak={handleBreak}></Break> */}
                     <Details details={details}></Details>
                     <Toast></Toast>
                 </div>
