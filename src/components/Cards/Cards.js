@@ -9,7 +9,7 @@ import "./Cards.css"
 const Cards = () => {
     const [cards, setCards] = useState([])
     const [details, setDetails] = useState([])
-    const [breakInfo, setBreakInfo] = useState([])
+    // const [breakInfo, setBreakInfo] = useState([])
     useEffect(() => {
         fetch('sports.json')
             .then(res => res.json())
@@ -36,7 +36,7 @@ const Cards = () => {
                         cards.map(card => <SingleCard key={card.id} card={card} handleTime={handleTime}></SingleCard>)
                     }
                 </div>
-                <div>
+                <div className='sidebar'>
                     <PersonalInfo></PersonalInfo>
                     <Break handleBreak={handleBreak}></Break>
                     <Details details={details}></Details>

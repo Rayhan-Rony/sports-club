@@ -1,4 +1,5 @@
 import React from 'react';
+import './Toast.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Toast = () => {
@@ -7,7 +8,7 @@ const Toast = () => {
     }
     return (
         <div>
-            <button onClick={notify}>Activity Completed</button>
+            <p className='btn-wrapper'><button className='toast-btn' onClick={notify}>Activity Completed</button></p>
             <ToastContainer></ToastContainer>
         </div>
 

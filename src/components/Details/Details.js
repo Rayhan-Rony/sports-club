@@ -1,4 +1,5 @@
 import React from 'react';
+import './Details.css'
 
 const Details = (props) => {
     // console.log(props.details)
@@ -10,9 +11,9 @@ const Details = (props) => {
     }
     return (
         <div>
-            <p>ttt:{props.details.length}</p>
+
             <h2>Exercise Details:</h2>
-            <p>Exercise Time:{totalTime}m</p>
+            <p className='total-time' >Exercise Time:<span className='time'>{totalTime}m</span></p>
             <p>Break Time:</p>
 
         </div>
